@@ -1,0 +1,256 @@
+% --------------------------------------------------------------------------- %
+% Poster for the ECCS 2011 Conference about Elementary Dynamic Networks.      %
+% --------------------------------------------------------------------------- %
+% Created with Brian Amberg's LaTeX Poster Template. Please refer for the     %
+% attached README.md file for the details how to compile with `pdflatex`.     %
+% --------------------------------------------------------------------------- %
+% $LastChangedDate:: 2011-09-11 10:57:12 +0200 (V, 11 szept. 2011)          $ %
+% $LastChangedRevision:: 128                                                $ %
+% $LastChangedBy:: rlegendi                                                 $ %
+% $Id:: poster.tex 128 2011-09-11 08:57:12Z rlegendi                        $ %
+% --------------------------------------------------------------------------- %
+\documentclass[a0paper,portrait,amsmath,amssymb]{baposter}
+
+\usepackage{relsize}		% For \smaller
+\usepackage{url}			% For \url
+\usepackage{epstopdf}	% Included EPS files automatically converted to PDF to include with pdflatex
+
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage[caption=false]{subfig}
+\usepackage{floatrow}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\setlist{leftmargin=10pt, itemsep = 0.15em}
+\usepackage{mdframed}   % for framing
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{tcolorbox}
+
+\usepackage[colorlinks,bookmarks=true,citecolor=blue,linkcolor=red,urlcolor=blue]{hyperref}
+%%% Global Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{{pix/}}	% Root directory of the pictures 
+\tracingstats=2			% Enabled LaTeX logging with conditionals
+
+%%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bordercol}{RGB}{40,40,40}
+\definecolor{headercol1}{RGB}{186,215,230}
+\definecolor{headercol2}{RGB}{80,80,80}
+\definecolor{headerfontcol}{RGB}{0,0,0}
+\definecolor{boxcolor}{RGB}{255,255,255}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Utility functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Save space in lists. Use this after the opening of the list %%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{
+	\setlength{\itemsep}{1pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Document Start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\typeout{Poster rendering started}
+
+%%% Setting Background Image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\background{
+	%\begin{tikzpicture}[remember picture,overlay]%
+	%\draw (current page.north west)+(-2em,2em) node[anchor=north west]
+	%{\includegraphics[height=1.1\textheight]{background}};
+	%\end{tikzpicture}
+}
+
+%%% General Poster Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Eye Catcher, Title, Authors and University Images %%%%%%%%%%%%%%%%%%%%%%
+\begin{poster}{
+	grid=false,
+	% Option is left on true though the eyecatcher is not used. The reason is
+	% that we have a bit nicer looking title and author formatting in the headercol
+	% this way
+	%eyecatcher=false, 
+	borderColor=bordercol,
+	headerColorOne=headercol1,
+	headerColorTwo=headercol2,
+	headerFontColor=headerfontcol,
+	% Only simple background color used, no shading, so boxColorTwo isn't necessary
+	boxColorOne=boxcolor,
+	headershape=roundedright,
+	headerfont=\Large\sf\bf,
+	textborder=rectangle,
+	background=user,
+	headerborder=open,
+  boxshade=plain
+}
+%%% Eye Cacther %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+	Eye Catcher, empty if option eyecatcher=false - unused
+}
+%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                     
+{\sf\bf
+	Mesoscopic transport signatures of disorder-induced non-Hermitian phases
+}
+%%% Authors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+	Benjamin Michen$^1$, Jan Carl Budich$^1$\\
+	{ Contact: benjamin.michen@tu-dresden.de}\\
+	{\smaller $^1$ \emph{ Technische Universität Dresden, Institut für Theoretische Physik, 01062 Dresden}}\\
+
+}
+%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+% The logos are compressed a bit into a simple box to make them smaller on the result
+% (Wasn't able to find any bigger of them.)
+
+		\begin{minipage}{14em}
+		\includegraphics[width = 12em]{CTQMAT_logo.png}\vspace{1em} \\
+		\includegraphics[width = 12em]{TUD_logo.png}
+		\end{minipage}
+	
+	}
+
+\vspace{1em}
+\headerbox{Abstract}{name=abstract,span = 2, column=0,row=0}{
+
+We investigate the impact of disorder-induced {\bf exceptional points} (EPs) on the transport properties of a two-dimensional (2D) Dirac semi metal, where EPs refer to non-diagonalizable degeneracies of the effective non-Hermitian (NH) Hamiltonian $H_e(\bm k)$. We find that EPs may promote the  {\bf nearly vanishing conductance} of a finite sample at the Dirac point to a sizable value (see Fig.~\ref{FIG:illustration_setup}) that {\bf increases with disorder strength} (see Fig.~\ref{FIG:transport}) and also exhibits a strong {\bf directional anisotropy}. The exceptional phase also features quasiparticles with {\bf infinite lifetime} (see Fig.~\ref{FIG:spectrum}). 
+
+\vspace{1em}
+{\bf \large Preliminary Work}
+
+Among other dissipative settings, the occurence of EPs has been demonstrated in a variety of disordered systems \cite{EPDisorder1, EPDisorder2, EPDisorder3, EP_Disorder_1D}. Up to now, possible experimental signatures of disorder-induced EPs have only been studied as a side note \cite{EP_Disorder_1D}.
+
+}
+
+
+
+\headerbox{Setup}{name=setup,span=1,column=2,row=0}{
+(a)\\
+{\includegraphics[trim={-2cm 16cm 4cm 1cm}, width = \linewidth]{sketch_setup_disorder_transport.png}}
+(b)\\
+{\includegraphics[trim={-1.7cm 2cm 1.7cm 0cm}, clip, width=\linewidth]{fig1b_dummy.png}}\label{illustration_setup_b}
+(c)\\
+{\includegraphics[trim={-1.7cm 1cm 1.7cm 0cm}, clip, width=\linewidth]{fig1c_dummy.png} }
+\vspace{-2em}
+
+\begin{minipage}{\linewidth}
+
+\begin{tcolorbox}[width=\linewidth, colback=white!95!black, colframe=white, arc=3mm, boxrule=0mm, left=5pt,right=5pt]
+\vspace{-0.5em}
+\captionof{figure}{{\small (a) Illustration: Potential realization in the top layer of a so called square-net material \cite{SQN_Dirac_1}. (b) {\bf Orbital-restricted disorder} may split  the Dirac cones into topologically stable EPs with a characteristic square-root-like dispersion (absolute value of complex energy is shown). (c) For a sample of mesoscopic size, the vanishing zero-energy transmission seen in the clean regime (left panel) may be promoted to a finite value (right panel).} \label{FIG:illustration_setup}}
+\vspace{-1.5em}
+\end{tcolorbox}
+\end{minipage}
+
+%\includegraphics[angle=-90,width=0.98\linewidth]{PA_and_ER_Models_statisticalMeasures}
+}
+
+
+\headerbox{Complex Spectrum of the Exceptional Phase}{name=comspec, span = 2, column=0,below=abstract}{
+\begin{minipage}{\linewidth}
+{\includegraphics[trim={0cm 0cm 0cm 0.cm}, width=0.95\linewidth]{Spectrum_He.png}}\\
+\vspace{-1.5em}
+\begin{tcolorbox}[width=\linewidth, colback=white!95!black, colframe=white, arc=3mm, boxrule=0mm, left=5pt,right=5pt]
+\vspace{-0.5em}
+\captionof{figure}{\small Complex spectrum of $H_e(k)$ exhibiting EPs connected by {\bf Fermi arcs} (marked by red lines). Lines of {\bf vanishing imaginary part} (marked in green) entail propagating quasiparticles with {\bf infinite lifetime} and a group velocity parallel to the  $k_\mathrm{x}$-axis, resulting in {\bf anisotropic conductance}.} \label{FIG:spectrum}
+\vspace{-1.5em}
+\end{tcolorbox}
+\vspace{0.5em}
+\end{minipage}
+}
+
+
+
+\headerbox{Methodology}{name=meth, span = 2, column=0,below=comspec}{
+\begin{itemize}
+\item We consider a base model $H_0$ featuring a {\bf Dirac dispersion} with a random disorder term $V$.
+\vspace{-0.5em}
+\begin{align}
+H_0 =&\sum_{\bm j}  \left[ t_\mathrm{x}  \psi_{\bm j+ \bm \delta_\mathrm{y}}^\dagger 
+\sigma_\mathrm{x}  \psi_{\bm j} 
++ t_\mathrm{z}   \psi_{\bm j+ \bm \delta_\mathrm{x}}^\dagger \sigma_\mathrm{z}
+ \psi_{\bm j} + \mathrm{h.c.} \right].  \label{H_0} \\
+V = &\sum_{\bm j} a_{\bm j} \left[ \psi_{\bm j}^\dagger \left( 
+s_0 \sigma_\mathrm{0} + \gamma \left(\sin(\phi) \sigma_\mathrm{x} + \cos(\phi)  \sigma_\mathrm{z} \right) \right) \psi_{\bm j} 
+ + \mathrm{h.c.} \right ]. \label{EQN:disorder} 
+\end{align}\vspace{-1.5em}
+
+We set $t_x = t_y = 0.5$, $s_0, \gamma, \phi \in \mathbbm R$ and draw the uncorrelated random amplitudes $\{ a_{\bm j} \}$ from a box distribution on the real interval $[- \alpha, \alpha]$, so the overall disorder strength scales with $\alpha$. Generally, this parametrization allows for tuning between a uniform and an {\bf orbital-restricted} disorder potential.
+
+\item Impurity scattering in the disordered system $H = H_0 + V$ is discribed through a NH {\bf self-energy correction} $\Sigma(\bm k, \omega)$ arising from a disorder-averaged Green's function. We take $H_e(\bm k) = H_0 + \Sigma(\bm k, \omega = 0)$ as the effective NH Hamiltonian, which will exhibit EPs for orbital-restricted disorder (see Fig.~\ref{FIG:spectrum}). 
+
+\item We investigate the mesoscopic transport properties of our system by studying the {\bf linear response conductance} in a two-terminal setting (see Fig.~\ref{FIG:transport}).
+\end{itemize}
+}
+
+
+\headerbox{References}{name=references,column=0, span = 2, above=bottom}{
+\small 													% Make the whole text smaller
+\vspace{-0.4em} 										% Save some space at the beginning
+\bibliographystyle{plain}							% Use plain style
+\renewcommand{\section}[2]{\vskip 0.05em}		% Omit "References" title
+\begin{thebibliography}{1}							% Simple bibliography with widest label of 1
+\itemsep=-0.01em										% Save space between the separation
+\setlength{\baselineskip}{0.4em}					% Save space with longer lines
+
+\bibitem{EPDisorder1}
+A. A. Zyuzin, and A. Y. Zyuzin, {\em Flat band in disorder-driven non-Hermitian Weyl semimetals}, Phys. Rev. B {\bf 97}, 041203 (2018).
+
+\bibitem{EPDisorder2}
+K. Moors , A. A. Zyuzin, A. Y. Zyuzin, R. P. Tiwari, and T. L. Schmidt, {\em Disorder-driven exceptional lines
+and Fermi ribbons in tilted nodal-line semimetals} Phys. Rev. B {\bf{99}}, 041116 (2019).
+
+\bibitem{EPDisorder3}
+A. A. Zyuzin, and P. Simon, {\em Disorder-induced exceptional points and nodal lines in Dirac superconductors}, Phys. Rev. B {\bf 99}, 165145 (2019).
+
+\bibitem{EP_Disorder_1D}
+B. Michen, and J. C. Budich, {\em Exceptional non-Hermitian phases in disordered quantum wires}, Phys. Rev. B {\bf 104}, 035413 (2021).
+
+\bibitem{SQN_Dirac_1}
+S. Klemenz, S. Lei, L. M. Schoop, {\em Topological Semimetals in Square-Net Materials}, Annual Review of Materials Research {\bf 49} (1), 185-206  (2019).
+
+\bibitem{EP_Disorder_2D}
+B. Michen, and J. Budich, {\em Mesoscopic transport signatures of disorder-induced non-Hermitian phases}, Phys. Rev. Research {\bf 4}, 023248 (2022).
+
+\end{thebibliography}
+}
+
+
+
+
+\headerbox{Conductance From Disorder}
+{name=cond_dis,span=1,column=2,below= setup }{
+ \includegraphics[trim={0cm 0cm 0cm 0cm},clip, width= \linewidth]{Transport_alpha_Nx_100_Ny_200_Phi_0.png} 
+\vspace{-0.7em}
+\begin{minipage}{\linewidth}
+\begin{tcolorbox}[width=\linewidth, colback=white!95!black, colframe=white, arc=3mm, boxrule=0mm, left=5pt,right=5pt]
+\vspace{-0.5em}
+\captionof{figure}{\small Zero-energy conductance in $x$-direction of a finite sample as a function of disorder strength $\alpha$. Disorder parameters from Eq.~(\ref{EQN:disorder})  are $s_0 = 1$, $\phi = 0$ for all curves, while we vary $\gamma = 1$, $0.9$ and $0.8$ to study deviations from perfectly orbital-restricted disorder ($\gamma=1$). } \label{FIG:transport}
+\vspace{-1.5em}
+\end{tcolorbox}
+\end{minipage}
+\vspace{-0.3em}
+\begin{itemize}
+\item In the exceptional phase, the {\bf conductance increases with disorder strength} $\alpha$ in the direction perpendicular to the Fermi arcs. 
+\item The effect persists for small deviations from perfectly orbital-restricted disorder.
+\end{itemize}
+}
+
+\headerbox{Summary and Outlook}
+{name=sum,span=1,column=2, above = bottom}{
+Disorder-induced EPs leave clear fingerprints on the transport signatures of a mesoscopic sample, most strikingly a disorder-induced boost of the conductance. 
+A number of other interesting aspects are discussed in the full publication \cite{EP_Disorder_2D}: 
+\vspace{-.5em}
+
+\begin{itemize}
+\item {\bf Directional anisotropy} of the conductance
+\item {\bf Anomalous Anderson localization }
+\item {\bf Orbital-restricted disorder} will generally permit the {\bf survival of Bloch modes} from the clean system (the green lines with zero imaginary energy in Fig.~\ref{FIG:spectrum}).
+\end{itemize}
+\vspace{-1em}
+}
+\end{poster}
+\end{document}

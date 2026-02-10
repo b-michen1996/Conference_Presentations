@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="Aspect_ratio.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.53165943"
+     inkscape:cx="249.2197"
+     inkscape:cy="245.45789"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1167"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(7.4, 1)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path1165" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(7.4, 1)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path958" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path1249" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker24721"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path24719" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path863" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path866" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path863-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5138-4" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1703"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2043"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path2041"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5138" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-0-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path5138-4-7" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812509,5.8208415 H 37.041676"
+       id="path895-36-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.81251,19.050011 V 5.8208415"
+       id="path895-3-7-43" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-5-0"
+       cx="23.831989"
+       cy="5.9797025"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041675,5.8208415 H 50.270842"
+       id="path895-6-3-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041676,19.050011 V 5.8208415"
+       id="path895-3-9-5-8" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-1-6-68"
+       cx="37.061153"
+       cy="5.9797101"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006251,5.8208335 H 63.235418"
+       id="path895-7-3-2-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006252,19.050003 V 5.8208335"
+       id="path895-3-93-5-9-4" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-9-1-3"
+       cx="50.025726"
+       cy="5.9796948"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.97085,5.8208415 H 76.200017"
+       id="path895-7-2-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970851,19.050011 V 5.8208415"
+       id="path895-3-93-7-4" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-0-9"
+       cx="62.990334"
+       cy="5.9797025"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 76.200018,19.05001 V 5.8208405"
+       id="path895-3-1-3-0" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-8-6-6"
+       cx="76.219498"
+       cy="5.9797025"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812501,19.050002 H 37.041668"
+       id="path895-36-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812502,32.27917 V 19.050002"
+       id="path895-3-7-4" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-5-7"
+       cx="23.831982"
+       cy="19.208864"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041667,19.050002 H 50.270834"
+       id="path895-6-3-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041668,32.27917 V 19.050002"
+       id="path895-3-9-5-5" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-1-6-6"
+       cx="37.061146"
+       cy="19.208872"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006243,19.049994 H 63.23541"
+       id="path895-7-3-2-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006244,32.279162 V 19.049994"
+       id="path895-3-93-5-9-3" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-9-1-7"
+       cx="50.025719"
+       cy="19.208857"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970842,19.050002 H 76.200009"
+       id="path895-7-2-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970843,32.27917 V 19.050002"
+       id="path895-3-93-7-5" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-0-2"
+       cx="62.990326"
+       cy="19.208864"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 76.20001,32.279169 V 19.050001"
+       id="path895-3-1-3-4" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-8-6-7"
+       cx="76.21949"
+       cy="19.208864"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812502,32.279169 H 37.041669"
+       id="path895-36" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812503,45.508337 V 32.279169"
+       id="path895-3-7" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-5"
+       cx="23.831982"
+       cy="32.43803"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041668,32.279169 H 50.270835"
+       id="path895-6-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041669,45.508337 V 32.279169"
+       id="path895-3-9-5" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-1-6"
+       cx="37.061146"
+       cy="32.438038"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006244,32.279161 H 63.235411"
+       id="path895-7-3-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006245,45.508329 V 32.279161"
+       id="path895-3-93-5-9" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-9-1"
+       cx="50.025719"
+       cy="32.438023"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970843,32.279169 H 76.20001"
+       id="path895-7-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970844,45.508337 V 32.279169"
+       id="path895-3-93-7" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-0"
+       cx="62.990326"
+       cy="32.43803"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 76.200011,45.508336 V 32.279168"
+       id="path895-3-1-3" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-8-6"
+       cx="76.21949"
+       cy="32.43803"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812501,45.508345 H 37.041668"
+       id="path895" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.8125,58.737512 H 37.041668"
+       id="path895-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.812502,58.737513 V 45.508345"
+       id="path895-3" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277"
+       cx="23.83198"
+       cy="45.66721"
+       r="1.3229166" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-3"
+       cx="23.979546"
+       cy="58.735165"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041667,45.508345 H 50.270834"
+       id="path895-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041666,58.737512 H 50.270834"
+       id="path895-5-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.041668,58.737513 V 45.508345"
+       id="path895-3-9" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-1"
+       cx="37.061146"
+       cy="45.667213"
+       r="1.3229166" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-3-2"
+       cx="37.208714"
+       cy="58.735165"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006243,45.508337 H 63.23541"
+       id="path895-7-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006242,58.737504 H 63.23541"
+       id="path895-5-0-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 50.006244,58.737505 V 45.508337"
+       id="path895-3-93-5" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6-9"
+       cx="50.025719"
+       cy="45.667198"
+       r="1.3229166" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-3-0-2"
+       cx="50.173279"
+       cy="58.735153"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970842,45.508345 H 76.200009"
+       id="path895-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970841,58.737512 H 76.200009"
+       id="path895-5-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 62.970843,58.737513 V 45.508345"
+       id="path895-3-93" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-6"
+       cx="62.990326"
+       cy="45.66721"
+       r="1.3229166" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-3-0"
+       cx="63.137886"
+       cy="58.735165"
+       r="1.3229166" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 76.20001,58.737512 V 45.508344"
+       id="path895-3-1" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-8"
+       cx="76.21949"
+       cy="45.66721"
+       r="1.3229166" />
+    <circle
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path1277-3-7"
+       cx="76.367058"
+       cy="58.735165"
+       r="1.3229166" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-0)"
+       d="m 51.593767,44.185409 c 0,0 3.85934,-3.85934 1.69033,-8.28213 -0.182342,-0.37181 -0.40729,-0.7476 -0.68071,-1.12542 -0.28259,-0.39048 -0.61697,-0.78313 -1.00962,-1.17578"
+       id="path5127-1"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Group_Meetings/2022/April/13_04/Illustration_Hofstadter/Illustration_Hofstadter.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.033333"
+       y="40.481251"
+       id="text4717"><tspan
+         sodipodi:role="line"
+         id="tspan4715"
+         style="font-size:5.29167px;baseline-shift:baseline;stroke-width:0.264583"
+         x="55.033333"
+         y="40.481251">J<tspan
+   style="font-size:5.29167px;baseline-shift:sub"
+   id="tspan5995">y</tspan></tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.165625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3);marker-end:url(#marker2043)"
+       d="m 38.183351,167.52082 h -6.614574 v -6.61457"
+       id="path1701"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.0705px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.101763"
+       x="35.695591"
+       y="170.75267"
+       id="text4927"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"><tspan
+         sodipodi:role="line"
+         id="tspan4925"
+         x="35.695591"
+         y="170.75267"
+         style="stroke-width:0.101763">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.0705px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.101763"
+       x="28.371248"
+       y="163.2538"
+       id="text4927-1"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"><tspan
+         sodipodi:role="line"
+         id="tspan4925-7"
+         x="28.371248"
+         y="163.2538"
+         style="stroke-width:0.101763">y</tspan><tspan
+         sodipodi:role="line"
+         x="28.371248"
+         y="168.34192"
+         id="tspan4947"
+         style="stroke-width:0.101763" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 53.00002,107.19547 v 58.20835"
+       id="path1227-0-9"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 63.58335,107.19549 v 58.20834"
+       id="path1227-3-3-4"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 74.16669,107.19547 v 58.20835"
+       id="path1227-6-0-3"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 84.75002,107.19547 v 58.20835"
+       id="path1227-7-92-5"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 95.33335,107.19549 v 58.20835"
+       id="path1227-7-92-5-6"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.770854,162.75798 H 97.97918"
+       id="path1227-7-9-2-6-2-7"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 97.97918,152.17465 H 39.770854"
+       id="path1227-7-9-2-1-24-4"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.77085,141.59132 H 97.97918"
+       id="path1227-7-9-2-6-0-7-3"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 97.97918,131.00799 H 39.77085"
+       id="path1227-7-9-2-1-6-7-1"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.77085,120.42465 H 97.97918"
+       id="path1227-7-9-2-6-3-5-4"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 39.770853,109.84132 H 97.97918"
+       id="path1227-7-9-2-6-3-5-4-8"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.179123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 42.41669,107.19547 v 58.20835"
+       id="path1227-7-9-7-9-6"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-0-4-5-7"
+       cx="42.416653"
+       cy="131.00801"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-6-6-8-9-6"
+       cx="53"
+       cy="131.00801"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-8-1-9-8"
+       cx="42.416653"
+       cy="120.42467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-9-2-1-9"
+       cx="53"
+       cy="120.42467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-9-2-9-4-0"
+       cx="63.583313"
+       cy="131.00801"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-6-3-6-3-9-6"
+       cx="74.166687"
+       cy="131.00801"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-7-6-9-1-8"
+       cx="63.583313"
+       cy="120.42467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-4-4-0-0-7"
+       cx="74.166687"
+       cy="120.42467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-52-9-8-7-9"
+       cx="95.333351"
+       cy="131.008"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-5-8-0"
+       cx="95.333351"
+       cy="120.42467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-8-4-3"
+       cx="42.416683"
+       cy="152.17467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-6-48-2-3"
+       cx="53"
+       cy="152.17467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-1-2-3"
+       cx="42.416683"
+       cy="141.59132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-03-2-7"
+       cx="53"
+       cy="141.59132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-9-0-0-3"
+       cx="63.583344"
+       cy="152.17467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-6-3-4-5-2"
+       cx="74.166687"
+       cy="152.17467"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-7-4-5-6"
+       cx="63.583344"
+       cy="141.59132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-4-44-2-5"
+       cx="74.166687"
+       cy="141.59132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-52-76-9-2"
+       cx="95.333351"
+       cy="152.17465"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-17-2-6"
+       cx="95.333351"
+       cy="141.59131"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-8-7-5-5"
+       cx="42.416683"
+       cy="162.75804"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-9-5-4-8"
+       cx="53"
+       cy="162.75804"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-7-6-8-4-7"
+       cx="63.583344"
+       cy="162.75804"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-4-4-3-9-9"
+       cx="74.166687"
+       cy="162.75804"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-6-9-6"
+       cx="95.333351"
+       cy="162.75803"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-52-9-8-7-9-2"
+       cx="84.750008"
+       cy="131.008"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-5-8-0-4"
+       cx="84.750008"
+       cy="120.42465"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-9-2-1-9-9"
+       cx="42.416683"
+       cy="109.84132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-9-2-1-9-9-1"
+       cx="53.000015"
+       cy="109.84132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-7-6-9-1-8-2"
+       cx="63.583313"
+       cy="109.84132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-6-4-4-0-0-7-8"
+       cx="74.166687"
+       cy="109.84132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-5-8-0-3"
+       cx="95.333351"
+       cy="109.84132"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-5-8-0-4-0"
+       cx="84.750008"
+       cy="109.84131"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-52-76-9-2-7"
+       cx="84.750008"
+       cy="152.17465"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-17-2-6-9"
+       cx="84.750008"
+       cy="141.59131"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <circle
+       style="fill:#aa0000;stroke:none;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2101-5-4-0-6-9-6-3"
+       cx="84.750008"
+       cy="162.75803"
+       r="1.3229166"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:#008000;fill-opacity:0;stroke:#008000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 42.278893,163.02351 c 0,0 3.859345,3.85934 8.282134,1.69033 0.371808,-0.18234 0.747599,-0.40729 1.125413,-0.68071 0.390487,-0.28259 0.783137,-0.61697 1.175786,-1.00962"
+       id="path5127"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <path
+       style="fill:#ff0000;fill-opacity:0;stroke:#0000ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-0-6)"
+       d="m 53.000017,152.17465 c 0,0 3.85934,-3.85934 1.69033,-8.28213 -0.182342,-0.37181 -0.40729,-0.7476 -0.68071,-1.12542 -0.28259,-0.39048 -0.61697,-0.78313 -1.00962,-1.17578"
+       id="path5127-1-5"
+       sodipodi:nodetypes="cssc"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.45931px;line-height:1.25;font-family:sans-serif;baseline-shift:baseline;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:0.0983214"
+       x="46.453831"
+       y="170.85887"
+       id="text9120"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763"><tspan
+         sodipodi:role="line"
+         id="tspan9118"
+         style="baseline-shift:baseline;fill:#008000;stroke:#008000;stroke-width:0.0983214"
+         x="46.453831"
+         y="170.85887">J<tspan
+   style="baseline-shift:baseline;fill:#008000;stroke:#008000;stroke-width:0.0983214"
+   id="tspan14014"><tspan
+   style="font-size:2.89855px;baseline-shift:sub;fill:#008000;stroke:#008000;stroke-width:0.0983214"
+   id="tspan23170">x</tspan>  </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.45931px;line-height:1.25;font-family:sans-serif;baseline-shift:baseline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.0983214"
+       x="56.170433"
+       y="147.46498"
+       id="text9120-0"
+       inkscape:export-filename="/home/bm/Documents/Uni/Promotion/Organisatorisches/Conferences/DPG_Meeting_2022/Presentation/Slides/Images/Aspect_ratio.png"
+       inkscape:export-xdpi="365.53763"
+       inkscape:export-ydpi="365.53763"><tspan
+         sodipodi:role="line"
+         id="tspan9118-4"
+         style="baseline-shift:baseline;fill:#0000ff;stroke-width:0.0983214"
+         x="56.170433"
+         y="147.46498">J<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan96835">y</tspan>  </tspan></text>
+  </g>
+</svg>
