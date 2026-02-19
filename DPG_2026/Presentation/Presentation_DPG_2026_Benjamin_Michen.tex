@@ -80,7 +80,7 @@ Jan Carl Budich (TU Dresden, MPIPKS), \newline \vspace{10pt} Contact: \url{benja
 \begin{document}
 \maketitle
 
-\section{Some Facts on the Quantum Hall Effect}
+\section{Background: Some Facts about the Quantum Hall Effect}
 
 \begin{frame}
 \frametitle{\insertsectionhead}
@@ -92,27 +92,12 @@ For translation-invariant system with Bloch Hamiltonian $H(\bm k)$, eigenvectors
 \end{align}
 
 \begin{itemize}[<+(1)->]
-\item For $E_\mathrm{F}$ in band gap, $\sigma_{xy}$ is integer (Chern number)
-\item For $E_\mathrm{F}$ in band spectrum, $\sigma_{xy}$ takes continuous values
-\item Random disorder forces mobility gap and integer value of $\sigma_{xy}$ at any $E_\mathrm{F}$!
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-\frametitle{\insertsectionhead}
-\textbf{\large Hall conductance as a function of Fermi energy} \\
-\vspace{0.5em}
-For translation-invariant system with Bloch Hamiltonian $H(\bm k)$, eigenvectors $|u(\bm k) \rangle$, energies $E_{\bm k}$, and Berry curvature $\mathcal F = i [\langle \partial_{k_x} u| \partial_{k_y} u \rangle - \langle \partial_{k_y} u| \partial_{k_x} u \rangle]$, we have:
-\begin{align}
-\sigma_{xy}(E_\mathrm{F}) = \frac{e^2}{h} \frac{1}{2\pi}\int_{E_{\bm k}<E_\mathrm{F}}\mathrm{d}^2k \,  \mathcal F. \nonumber
-\end{align}
-
-\begin{itemize}[<+(1)->]
-\item For $E_\mathrm{F}$ in band gap, $\sigma_{xy}$ is integer (Chern number).
+\item For $E_\mathrm{F}$ in spectral gap, $\sigma_{xy}$ equals Chern number $\Rightarrow$ integer quantum Hall effect.
 \item For $E_\mathrm{F}$ in band spectrum, $\sigma_{xy}$ takes continuous values.
-\item Random disorder forces mobility gap and integer value of $\sigma_{xy}$ at any $E_\mathrm{F}$!
+\item Random disorder creates mobility gap $\Rightarrow$ forces  integer value of $\sigma_{xy}$ at any $E_\mathrm{F}$!
 \end{itemize}
 \end{frame}
+
 
 
 \begin{frame}
@@ -121,32 +106,71 @@ For translation-invariant system with Bloch Hamiltonian $H(\bm k)$, eigenvectors
 %\vspace{0.5em}
 	\begin{figure}[htp!]	 
 			\centering 
-			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/2_param_scaling_DPG.png} 			
+			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/2_param_scaling_DPG/2_param_scaling_DPG.png} 			
 	\end{figure}\blfootnote{D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
 \href{http://jetpletters.ru/ps/1485/article_22668.shtml}{ZhETF Pisma Redaktsiiu {\bfseries{38}} (1983)}}
 \vspace{-1.5em}
 \begin{itemize}[<+(1)->]
 \item Scaling theory depends on forward ($\sigma_{xx}$) and transverse ($\sigma_{xy}$) conductance.
-\item Non-quantized values of $\sigma_{xy}$ are rounded to the nearest integer!
+\item Non-integer values of $\sigma_{xy}$ rounded to the nearest integer in thermodynamic limit!
 \end{itemize}
 
 \end{frame}
+
+
+\begin{comment}
+\begin{frame}
+\frametitle{\insertsectionhead}
+\textbf{\large Conductance scaling in the presence of disorder} \\
+%\vspace{0.5em}
+	\begin{figure}[htp!]	 
+			\centering 
+			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/2_param_scaling_DPG/2_param_scaling_DPG.png} 			
+			\caption*{Two-parameter scaling theory depends on forward ($\sigma_{xx}$) and transverse ($\sigma_{xy}$) conductance.}
+	\end{figure}\blfootnote{D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
+\href{http://jetpletters.ru/ps/1485/article_22668.shtml}{ZhETF Pisma Redaktsiiu {\bfseries{38}} (1983)}}
+\vspace{-1.5em}
+
+\setbeamercolor{block body example}{bg=gray}
+  \begin{exampleblock}{}
+  \centering
+	Disorder rounds $\sigma_{xy}$ to the nearest integer in the thermodynamic limit!
+  \end{exampleblock}
+  
+\end{frame}
+\end{comment}
+
 
 \section{Quantum Hall Effect in a Model without Chern Bands}
 
 \begin{frame}
 \frametitle{\insertsectionhead}
-\textbf{\large Model and methods} \\
+\textbf{\large Method} \\
+%\vspace{0.5em}
+	\begin{figure}[htp!]	 
+			\centering 
+			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/Fig_scattering_theory.png} 			
+	\end{figure}
+\vspace{-1.5em}
+\begin{itemize}[<+(1)->]
+\item Landauer-Büttiker formalism: quantum transport as scattering / wave matching problem
+\item $S$-matrix elements calculated with Kwant\footnote{C. W. Groth, M. Wimmer, A. R. Akhmerov, X. Waintal, {\em Kwant: a software package for quantum transport}, \href{https://iopscience.iop.org/article/10.1088/1367-2630/16/6/063065}{New J. Phys. 16, 063065 (2014)}} package
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{\insertsectionhead}
+\textbf{\large Model} \\
 \begin{align*}
-\hat H = \underbrace{\sum_{\bm k} \bm c_{\bm k}^\dagger \left[ \bm d(\bm k) \cdot \bm \sigma \right] \bm c_{\bm k}}_{\hat H_0} \;+ \;\underbrace{W\sum_{j_x, j_y} \sum_{\alpha = a,b} f_{\bm j, \alpha} c_{\bm j, \alpha}^\dagger c_{\bm j, \alpha}}_{\hat W},
+\hat H = \underbrace{\sum_{\bm k} \bm c_{\bm k}^\dagger \left[h_0(\bm k)\right] \bm c_{\bm k}}_{\hat H_0} \;+ \;\underbrace{W\sum_{j_x, j_y} \sum_{\alpha = a,b} f_{\bm j, \alpha} c_{\bm j, \alpha}^\dagger c_{\bm j, \alpha}}_{\hat W},
 \end{align*}
 
 \begin{itemize}[<+(1)->]
-\item Periodic part $\hat H_0$ exhibits trivial bands\footnote{For completeness:  $\hat H_0$ determined by coefficients $d_x(\bm k) = \gamma \sin(k_x)$, 
+\item $\hat H_0$ exhibits two topologically trivial bands\footnote{For completeness: explicit Bloch Hamiltonian is $h_0(\bm k) = \bm d(\bm k) \cdot \bm \sigma $ with coefficients $d_x(\bm k) = \gamma \sin(k_x)$, 
 $d_y(\bm k) = \lambda(k_x) \sin(k_y)$,
-$d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambda(k_x) =  \epsilon_1 + \epsilon_2 (1 - \cos(k_x))/2 $ and parameters $r = 1.5$, $\epsilon_1 = 0.3$, $\epsilon_2 = 2$, $\gamma  =2$, and $\gamma_2 = 0.3$.} but strong anomalous Hall effect! 
+$d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambda(k_x) =  \epsilon_1 + \epsilon_2 (1 - \cos(k_x))/2 $ and parameters $r = 1.5$, $\epsilon_1 = 0.3$, $\epsilon_2 = 2$, $\gamma  =2$, and $\gamma_2 = 0.3$.} but strong anomalous Hall effect with $\sigma_{xy} \geq 0.5 e^2 / h$!
 \item Disorder potential $\hat W$ with overall strength $W \ge 0$ and random amplitudes $f_{\bm j, \alpha}$ drawn uniformly from $[-1,1]$.
-\item Transport properties of the model are probed using the Kwant package\footnote{C. W. Groth, M. Wimmer, A. R. Akhmerov, X. Waintal, {\em Kwant: a software package for quantum transport}, \href{https://iopscience.iop.org/article/10.1088/1367-2630/16/6/063065}{New J. Phys. 16, 063065 (2014)}}.
 \end{itemize}
 \vspace{0.5em}
 \end{frame}
@@ -157,12 +181,37 @@ $d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambd
 \vspace{0.5em}
 \begin{figure}[htp!]	 
 	\centering 
-	\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/QHE_wo_CB.png} 			
+	\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/QHE_wo_CB_DPG/QHE_wo_CB_DPG.png} 			
 	\caption*{(a) Band structure of $\hat H_0$. (b) Hall conductance without ($W = 0$) and with disorder ($W = 1.5$).} 
 \end{figure}	
 \end{frame}
 
-\section{Boundary conditions and finite-size effects}
+\section{Edge Transport and Finite-Size Effects}
+
+\begin{frame}
+	\frametitle{\insertsectionhead}
+\begin{columns}[onlytextwidth,T]
+\begin{column}{.45\textwidth}
+\textbf{\large Edge Transport} \\
+\vspace{0.5em}	
+	\begin{itemize}[<+->]
+		\item Different geometries (planar/OBC vs. cylindrical/PBC) reveal edge state contribution
+		\item Additional marker: winding number of reflection matrix over boundary angle
+\begin{align*}
+\nu = \frac{1}{2\pi} \oint_{0}^{2 \pi} \mathrm{d} \phi\, \left(\frac{\partial}{\partial\phi} \mathrm{ln}[\mathrm{det}(R)]\right) \label{Eqn:W_num}
+\end{align*}
+	\end{itemize}
+\end{column}	
+\begin{column}{.55\textwidth}
+	\flushright
+	\begin{figure}[htp!]	 
+	\only<1>{\includegraphics[trim={-0.1cm 0cm 2.5cm 1cm}, width= 1 \linewidth]{Illustrations/2_terminal_DPG/2_terminal_DPG_no_nu.png}}
+        \only<2->{\includegraphics[trim={-0.1cm 0cm 2.5cm 1cm}, width= 1 \linewidth]{Illustrations/2_terminal_DPG/2_terminal_DPG_nu.png}}
+	\caption*{\hspace{1em} \parbox{\linewidth}{Two-terminal transport along $x$-direction for system size $N_x = 600$, $N_y = 150$. (a) OBC along $y$, (b) PBC along $y$. Inset: Finite size scaling.}}
+	\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
 
 \begin{frame}
 	\frametitle{\insertsectionhead}
@@ -179,11 +228,31 @@ $d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambd
 \begin{column}{.55\textwidth}
 	\flushright
 	\begin{figure}[htp!]	 
-	\includegraphics[trim={-0.1cm 0cm 2.5cm 1cm}, width= 1 \linewidth]{Illustrations/transport_W_EF.png} 
-	\caption*{Two-terminal transport along $x$-direction for system size $N_x = 600$, $N_y = 150$. (a) OBC along $y$, (b) PBC along $y$. Inset: Finite size scaling.}
+	\includegraphics[trim={-0.1cm 0cm 2.5cm 1cm}, width= 1 \linewidth]{Illustrations/2_terminal_DPG/2_terminal_DPG_nu.png} 
+	\caption*{\hspace{1em} \parbox{\linewidth}{Two-terminal transport along $x$-direction for system size $N_x = 600$, $N_y = 150$. (a) OBC along $y$, (b) PBC along $y$. Inset: Finite size scaling.}}
 	\end{figure}
 \end{column}
 \end{columns}
+\end{frame}
+
+\begin{frame}
+
+\begin{block}{Paper}
+\Large
+  \begin{center}
+B. Michen and J.C. Budich, \\{\em Quantum Hall Effect without Chern Bands}, \\ \href{https://journals.aps.org/prl/abstract/10.1103/dgd8-4gzf}{Phys. Rev. Lett. {\bfseries{135}} (18), 186603 (2025)}.
+\end{center}
+\end{block}
+\blfootnote{Contact: \url{benjamin.michen@tu-dresden.de}}
+
+\pause
+
+\vfill
+\centering
+\Large{Thanks for your attention!}
+\vfill
+\Large{Questions?}
+    
 \end{frame}
 
 \end{document}
@@ -516,9 +585,11 @@ B. Michen, C. Repellin, and J. C. Budich, \textit{in preparation. }
   \centering
   \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
     \Large{Thank you for your attention!}
+    Contact: \url{benjamin.michen@tu-dresden.de}
   \end{beamercolorbox}
   \vfill
 \end{frame}
+
 
 \end{document}
 
