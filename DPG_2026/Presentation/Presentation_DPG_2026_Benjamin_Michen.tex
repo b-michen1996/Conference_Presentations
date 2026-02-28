@@ -16,6 +16,9 @@
 %\usepackage{hyperref}
 %\usepackage[colorlinks,bookmarks=true,citecolor=blue,linkcolor=red,urlcolor=blue]{hyperref}
 
+\usepackage{tikz}
+\usetikzlibrary{tikzmark, arrows.meta}
+\tikzstyle{every picture}+=[remember picture]
 
 \usepackage{bm}
 \usepackage{bbm}
@@ -90,6 +93,12 @@ For translation-invariant system with Bloch Hamiltonian $H(\bm k)$, eigenvectors
 \begin{align}
 \sigma_{xy}(E_\mathrm{F}) = \frac{e^2}{h} \frac{1}{2\pi}\int_{E_{\bm k}<E_\mathrm{F}}\mathrm{d}^2k \,  \mathcal F. \nonumber
 \end{align}
+
+% annotate
+\begin{tikzpicture}[remember picture, overlay]
+\draw[->,>=stealth, gray, line width=0.2mm] (0.75 \linewidth, 1.4) -- (0.7 \linewidth, 1.2) 
+node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]{Accumulated Berry curvature\\ up to Fermi energy $E_F$};
+\end{tikzpicture}
 
 \begin{itemize}[<+(1)->]
 \item For $E_\mathrm{F}$ in spectral gap, $\sigma_{xy}$ equals Chern number $\Rightarrow$ integer quantum Hall effect.
