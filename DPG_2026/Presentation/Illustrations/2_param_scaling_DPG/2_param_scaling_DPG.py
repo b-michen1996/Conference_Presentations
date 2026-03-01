@@ -20,7 +20,7 @@ plt.rcParams.update({
 lw_arrow = 1
 lw = 1
 ms_arrow = 10
-ms = 4
+ms = 6
 
 label_size = 25
 

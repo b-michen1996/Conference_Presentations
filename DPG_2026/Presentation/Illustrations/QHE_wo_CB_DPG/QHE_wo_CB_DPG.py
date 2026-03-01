@@ -214,10 +214,9 @@ def Fig_1(N, N_colorsteps, r, epsilon_1, epsilon_2, gamma, gamma_2, gamma_3, dat
     a2.axvline(x=1, color='black', linestyle='--')
     a2.axvline(x=0.5, color='gray', linestyle='--')
     a2.axvline(x=0, color='black', linestyle='--')
-    a2.axvline(x=color_max, color='gray', linestyle='dotted')
+    #a2.axvline(x=color_max, color='gray', linestyle='dotted')
     
-    a2.text(0.65, 0.05, r"$\sigma_{xy}$ = " + rf"{np.round(color_max[0], decimals = 2)}", 
-         fontsize = label_scale_inset * label_size, transform=a2.transAxes, color = "gray")
+    #a2.text(0.65, 0.05, r"$\sigma_{xy}$ = " + rf"{np.round(color_max[0], decimals = 2)}", fontsize = label_scale_inset * label_size, transform=a2.transAxes, color = "gray")
     
     a2.plot(I_low, E_low, color = "black", label = r"$W = 0$")
     a2.plot(I_up, E_up, color = "black")

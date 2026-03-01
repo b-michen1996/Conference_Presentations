@@ -1,4 +1,5 @@
-\documentclass[ddcfooter, aspectratio=169, hyperref = {colorlinks,bookmarks=true,citecolor=blue,urlcolor=blue}]{beamer}
+%\documentclass[ddcfooter, aspectratio=169, hyperref = {colorlinks,bookmarks=true,citecolor=blue,urlcolor=blue}]{beamer}
+\documentclass[ddcfooter, aspectratio=169]{beamer}
 \usepackage[utf8]{inputenc}  % Kodierung der Datei
 \usepackage[T1]{fontenc}  % Vollen Umfang der Schriftzeichen
 \usepackage{amsmath}
@@ -13,12 +14,16 @@
 
 \usepackage{comment}
 
+\usepackage[hang,flushmargin,symbol]{footmisc}
+\AtBeginEnvironment{frame}{\setcounter{footnote}{0}}
+
 %\usepackage{hyperref}
 %\usepackage[colorlinks,bookmarks=true,citecolor=blue,linkcolor=red,urlcolor=blue]{hyperref}
 
 \usepackage{tikz}
-\usetikzlibrary{tikzmark, arrows.meta}
+\usetikzlibrary{tikzmark, arrows.meta,math}
 \tikzstyle{every picture}+=[remember picture]
+\usetikzlibrary{shapes.geometric}
 
 \usepackage{bm}
 \usepackage{bbm}
@@ -40,12 +45,6 @@
 \newcommand*{\currentname}{\@currentlabelname}
 \makeatother
 
-\newcommand\blfootnote[1]{%
-  \begingroup
-  \renewcommand\thefootnote{}\footnote{#1}%
-  \addtocounter{footnote}{-1}%
-  \endgroup
-}
 
 %Bilder neben Text
 \newcommand{\lenitem}[2][.7\linewidth]{\parbox[t]{#1}{\strut #2\strut}}
@@ -55,6 +54,49 @@
 \setbeamertemplate{footline}[frame number]
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{headline}{}
+
+
+\setbeamercolor{item}{fg=black}
+
+%------------------------------------------------------------------------
+% Match gray of the slide title to that of the title boxes
+\setbeamertemplate{frametitle}{ \nointerlineskip \begin{beamercolorbox}[wd=\paperwidth, ht=0.6cm, dp=0.2cm, leftskip=0.5cm]{title} \usebeamerfont{title}\insertframetitle \end{beamercolorbox} }
+
+% Insert slide with section name before each section
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\thesection~ \insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+%  Insert slide with subsection name before each subsection
+\AtBeginSubsection[]{
+\begin{frame}
+\vfill
+\centering
+\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+\usebeamerfont{title}\thesection.\thesubsection~\insertsubsectionhead\par%
+\end{beamercolorbox}
+\vfill
+\end{frame}
+}
+
+\setbeamercolor{frametitle}{parent=palette primary}
+
+%\setbeamercolor{title}{bg = white}
+%\setbeamercolor{frametitle right}{bg = white}
+%\setbeamercolor{frametitle}{bg = blue, fg = white}
+%\setbeamercolor{section in head/foot}{bg=blue, fg = white}
+%\setbeamercolor{section title}{bg=blue, fg = white}
+
+
+
+%------------------------------------------------------------------------
 
 
 \title[]{Quantum Hall Effect without Chern Bands}
@@ -116,8 +158,12 @@ node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]
 	\begin{figure}[htp!]	 
 			\centering 
 			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/2_param_scaling_DPG/2_param_scaling_DPG.png} 			
-	\end{figure}\blfootnote{D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
+	\end{figure}\footnote[0]{\tiny D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
 \href{http://jetpletters.ru/ps/1485/article_22668.shtml}{ZhETF Pisma Redaktsiiu {\bfseries{38}} (1983)}}
+\begin{tikzpicture}[remember picture, overlay]
+\draw[->,>=stealth, gray, line width=0.2mm] (0.65 \linewidth, 1.) -- (0.625 \linewidth, 1.5) 
+node[pos=0.1, below right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]{Stable fixed point};
+\end{tikzpicture}
 \vspace{-1.5em}
 \begin{itemize}[<+(1)->]
 \item Scaling theory depends on forward ($\sigma_{xx}$) and transverse ($\sigma_{xy}$) conductance.
@@ -136,7 +182,7 @@ node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]
 			\centering 
 			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/2_param_scaling_DPG/2_param_scaling_DPG.png} 			
 			\caption*{Two-parameter scaling theory depends on forward ($\sigma_{xx}$) and transverse ($\sigma_{xy}$) conductance.}
-	\end{figure}\blfootnote{D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
+	\end{figure}footnote[0]{\tiny D. E. Khmelnitskii, \em{Quantization of Hall conductivity}, 
 \href{http://jetpletters.ru/ps/1485/article_22668.shtml}{ZhETF Pisma Redaktsiiu {\bfseries{38}} (1983)}}
 \vspace{-1.5em}
 
@@ -161,11 +207,12 @@ node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]
 			\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/Fig_scattering_theory.png} 			
 	\end{figure}
 \vspace{-1.5em}
+\renewcommand{\thefootnote}{\arabic{footnote}}
 \begin{itemize}[<+(1)->]
 \item Landauer-Büttiker formalism: quantum transport as scattering / wave matching problem
-\item $S$-matrix elements calculated with Kwant\footnote{C. W. Groth, M. Wimmer, A. R. Akhmerov, X. Waintal, {\em Kwant: a software package for quantum transport}, \href{https://iopscience.iop.org/article/10.1088/1367-2630/16/6/063065}{New J. Phys. 16, 063065 (2014)}} package
+\item $S$-matrix elements calculated with Kwant\footnote{\tiny C. W. Groth, M. Wimmer, A. R. Akhmerov, X. Waintal, {\em Kwant: a software package for quantum transport}, \href{https://iopscience.iop.org/article/10.1088/1367-2630/16/6/063065}{New J. Phys. 16, 063065 (2014)}} package
 \end{itemize}
-
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 \end{frame}
 
 \begin{frame}
@@ -174,16 +221,22 @@ node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]
 \begin{align*}
 \hat H = \underbrace{\sum_{\bm k} \bm c_{\bm k}^\dagger \left[h_0(\bm k)\right] \bm c_{\bm k}}_{\hat H_0} \;+ \;\underbrace{W\sum_{j_x, j_y} \sum_{\alpha = a,b} f_{\bm j, \alpha} c_{\bm j, \alpha}^\dagger c_{\bm j, \alpha}}_{\hat W},
 \end{align*}
-
 \begin{itemize}[<+(1)->]
-\item $\hat H_0$ exhibits two topologically trivial bands\footnote{For completeness: explicit Bloch Hamiltonian is $h_0(\bm k) = \bm d(\bm k) \cdot \bm \sigma $ with coefficients $d_x(\bm k) = \gamma \sin(k_x)$, 
-$d_y(\bm k) = \lambda(k_x) \sin(k_y)$,
-$d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambda(k_x) =  \epsilon_1 + \epsilon_2 (1 - \cos(k_x))/2 $ and parameters $r = 1.5$, $\epsilon_1 = 0.3$, $\epsilon_2 = 2$, $\gamma  =2$, and $\gamma_2 = 0.3$.} but strong anomalous Hall effect with $\sigma_{xy} \geq 0.5 e^2 / h$!
-\item Disorder potential $\hat W$ with overall strength $W \ge 0$ and random amplitudes $f_{\bm j, \alpha}$ drawn uniformly from $[-1,1]$.
+\item Both bands of $\hat H_0$ have Chern number zero but a strong anomalous Hall effect.
+\item Random disorder $\hat W$ will nudge system into quantum Hall phase!
 \end{itemize}
+\footnote[0]{\tiny For completeness: explicit Bloch Hamiltonian is $h_0(\bm k) = \bm d(\bm k) \cdot \bm \sigma $ with coefficients $d_x(\bm k) = \gamma \sin(k_x)$, 
+$d_y(\bm k) = \lambda(k_x) \sin(k_y)$,
+$d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambda(k_x) =  \epsilon_1 + \epsilon_2 (1 - \cos(k_x))/2 $ and parameters $r = 1.5$, $\epsilon_1 = 0.3$, $\epsilon_2 = 2$, $\gamma  =2$, and $\gamma_2 = 0.3$.} 
+\begin{tikzpicture}[remember picture, overlay]
+\draw[->,>=stealth, gray, line width=0.2mm] (0.45 \linewidth, 4.3) -- (0.4 \linewidth, 3.9) 
+node[pos=0, right, text=gray, align=left, font=\tiny\linespread{0.8}\selectfont]{Two trivial bands, \\ strong anomalous\\ Hall effect};
+\draw[->,>=stealth, gray, line width=0.2mm] (0.725 \linewidth, 4.3) -- (0.675 \linewidth, 3.9) 
+node[pos = 0, right, text=gray] {\tiny Random amplitudes $f_{\bm j, \alpha} \in [-1,1]$};
+\end{tikzpicture}
 \vspace{0.5em}
 \end{frame}
-
+	
 \begin{frame}
 \frametitle{\insertsectionhead}
 \textbf{\large Disorder induces integer quantum Hall effect} \\
@@ -193,6 +246,30 @@ $d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambd
 	\includegraphics[trim={0cm 0cm 0cm 0.5cm}, width = 0.9 \linewidth]{Illustrations/QHE_wo_CB_DPG/QHE_wo_CB_DPG.png} 			
 	\caption*{(a) Band structure of $\hat H_0$. (b) Hall conductance without ($W = 0$) and with disorder ($W = 1.5$).} 
 \end{figure}	
+
+\begin{tikzpicture}[remember picture, overlay]
+  \draw[->,>=stealth, blue, line width=0.2mm]
+    (0.04\linewidth, 3.9) -- (0.09\linewidth, 4.3)
+    node[pos=0.2, below left, text=blue, align=left,
+         font=\tiny\linespread{0.8}\selectfont]{Clean Hall\\conductance};
+
+  \draw[->,>=stealth, blue, line width=0.2mm]
+    (0.755\linewidth, 3.7) -- (0.755\linewidth, 3.3)
+    node[pos=0.1, above, text=blue, align=left,
+         font=\tiny\linespread{0.8}\selectfont]{Disordered Hall\\conductance};
+
+  \draw[->,>=stealth, blue, line width=0.2mm]
+    (0.6\linewidth, 3.18) -- (0.6\linewidth, 2.73)
+    node[pos=0.1, above, text=blue, align=left,
+         font=\tiny\linespread{0.8}\selectfont]{Clean Hall\\conductance};
+         
+\node[draw=blue, ellipse, minimum width=0.4cm, minimum height=1cm] (myellipse) at (0.86\linewidth, 3.92) {};
+\draw[-, blue, line width=0.2mm]
+(myellipse.east) -- ++(.5cm, -0.3cm)
+node[pos=1, right, text=blue, align=left,
+font=\tiny\linespread{0.8}\selectfont]{Hall plateau};
+
+\end{tikzpicture}
 \end{frame}
 
 \section{Edge Transport and Finite-Size Effects}
@@ -249,7 +326,7 @@ $d_z(\bm k) = \gamma_2[r - \cos(2 k_x)] - \lambda(k_x) \cos(k_y)$, where $\lambd
 B. Michen and J.C. Budich, \\{\em Quantum Hall Effect without Chern Bands}, \\ \href{https://journals.aps.org/prl/abstract/10.1103/dgd8-4gzf}{Phys. Rev. Lett. {\bfseries{135}} (18), 186603 (2025)}.
 \end{center}
 \end{block}
-\blfootnote{Contact: \url{benjamin.michen@tu-dresden.de}}
+\footnote[0]{\tiny Contact: \url{benjamin.michen@tu-dresden.de}}
 
 \pause
 
